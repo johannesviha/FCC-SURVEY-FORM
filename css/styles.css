@@ -1,0 +1,192 @@
+html {
+  box-sizing: border-box;
+  background: linear-gradient(
+      rgba(102, 102, 157, 0.6),
+      rgba(102, 102, 157, 0.6)
+    ),
+    url(../images/coding.jpg) center center / cover no-repeat fixed;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+}
+/* ==========================================================================
+   Header Container
+   ========================================================================== */
+
+header {
+  text-align: center;
+  margin-top: 25px;
+}
+h1 {
+  font-size: 15px;
+}
+header p {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 9px;
+  margin: 5px auto 0 auto;
+  width: 325px;
+}
+/* ==========================================================================
+   Form Container
+   ========================================================================== */
+
+form {
+  border-radius: 5px;
+  background-color: #282847c2;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  margin: 25px auto 0 auto;
+}
+.container {
+  margin: 25px 25px 0 25px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0 10px 0;
+}
+span {
+  font-size: 10px;
+  vertical-align: bottom;
+  line-height: 15px;
+}
+.wrapper select {
+  color: #666c72;
+  height: 35px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+label {
+  padding-bottom: 10px;
+}
+input {
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+  padding: 5px;
+  padding-left: 10px;
+}
+input::placeholder {
+  color: gray;
+}
+.header-paragraph {
+  margin-top: 15px;
+}
+.radio-wrapper input {
+  width: 15px;
+  height: 15px;
+  margin: 15px 10px 0 0;
+}
+.wrapper-middle {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper-middle select {
+  color: #666c72;
+  margin-bottom: 25px;
+  height: 35px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+.wrapper-bottom {
+  display: flex;
+  flex-direction: column;
+}
+.checkbox-wrapper input {
+  width: 15px;
+  height: 15px;
+  margin: 15px 10px 0 0;
+}
+.wrapper-comments {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper-comments label {
+  margin-top: 35px;
+}
+.wrapper-comments textarea {
+  min-height: 50px;
+  resize: vertical;
+  color: #666c72;
+  padding: 10px;
+}
+.btn {
+  align-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 10px;
+  height: 30px;
+  line-height: 1px;
+  background-color: #37af65;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 600px) {
+  /* ==========================================================================
+   Header Container
+   ========================================================================== */
+
+  h1 {
+    font-size: 30px;
+  }
+  header p {
+    font-size: 18px;
+    width: 600px;
+  }
+  /* ==========================================================================
+   Form Container
+   ========================================================================== */
+  input {
+    height: 30px;
+  }
+  select {
+    height: 30px;
+  }
+  .wrapper-comments textarea {
+    min-height: 80px;
+  }
+  .btn {
+    height: 45px;
+  }
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 1920px) {
+  /* ==========================================================================
+     Header Container
+     ========================================================================== */
+  header {
+    margin-top: 75px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  header p {
+    font-size: 35px;
+    width: 1500px;
+    margin-bottom: 50px;
+  }
+  /* ==========================================================================
+   Form Container
+   ========================================================================== */
+
+  form {
+    width: 60%;
+  }
+  .container {
+    margin: 40px 40px 0 40px;
+  }
+}
